@@ -1,0 +1,29 @@
+* {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+body {
+    background-image: linear-gradient(to left, #45C4B0, #DAFDBA);
+}
+
+main {
+    background-color: aliceblue;
+    margin: auto;
+    width: 750px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px 0px #012030;
+}
+
+h1 {
+    text-align: center;
+    color: #13678A;
+}
+
+h2 {
+    color: #45C4B0;
+}
+
+p {
+    text-align: justify;
+}

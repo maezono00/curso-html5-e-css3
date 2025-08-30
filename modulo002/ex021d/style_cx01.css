@@ -1,0 +1,27 @@
+@charset "UTF-8";
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #DAFDBA;
+}
+
+h1 {
+    height: 250px;
+    width: 250px;
+    padding: 10px;
+    border: 10px solid #45C4B0;
+    margin: auto;
+    outline: 5px dotted #13678A;
+}
+
+a {
+    border-width: 10px;
+    border-style: groove;
+    border-color: #13678A;
+
+    outline-width: 5px;
+    outline-style: dotted;
+    outline-color: #45C4B0;
+
+    display: block;
+}

@@ -1,0 +1,24 @@
+@charset "UTF-8";
+
+body {
+    background-color:aliceblue;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h1 {
+    color: hotpink;
+}
+
+h1#principal {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 3rem;
+    text-align: center;
+}
+
+h2 {
+    color: blueviolet;
+}
+
+p {
+    text-align: justify;
+}

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudoelementos</title>
+    <style>
+        body {
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+
+        a {
+            color: #BF5A7F;
+            font-weight: bold;
+        }
+
+        a:visited {
+            color: #0367A6;
+        }
+
+        a:hover {
+            color: #04ADBF;
+        }
+
+        a:active{
+            color: #049DBF;
+        }
+
+        a::after {
+            content: ' [link]';
+            text-decoration: none;
+            font-weight: normal;
+            color: gray;
+        }
+
+        .especial:before {
+            content: '!!! ';
+        }
+    </style>
+</head>
+<body>
+    <h1>Personalizando Links</h1>
+    <hr>
+    <ul>
+        <li><a href="https://www.google.com/search?q=1&sxsrf=AE3TifPyDQd3rgBWc15MvuI_T7ZmDU-F7g%3A1755544257558" class="especial">Insira link impactante</a></li>
+        <li><a href="https://www.google.com/search?q=2&sxsrf=AE3TifP7GSJkTFoFHRYTUDUkTysaVfeqNg%3A1755544259362">Insira outro link impactante</a></li>
+        <li><a href="https://www.google.com/search?q=3&sxsrf=AE3TifPiy_nMXQI_kLFrp2ZRTVAP_a1ihw%3A1755544266986">Insira mais um link impactant</a></li>
+    </ul>    
+</body>
+</html>
